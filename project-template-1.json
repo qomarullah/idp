@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "code": "200",
+        "message": "OK",
+        "currentPage": 1,
+        "trxid": "fc7187a1-f94b-42f8-a243-8dfe67712ecc",
+        "procTime": 0
+    },
+    "data": [
+        {
+            "createdAt": "2023-06-06 05:52:26",
+            "desc": "Simple project use service based on template",
+            "id": 1,
+            "isTemplate": true,
+            "name": "Simple Project",
+            "namespaceId": 1,
+            "projectFromId": 0,
+            "reference": "BR-XYZ",
+            "sort": 0,
+            "topology": "https://fastly.picsum.photos/id/316/200/300.jpg",
+            "updatedAt": "2023-06-06 05:52:26"
+        },
+        {
+            "createdAt": "2023-06-06 05:52:26",
+            "desc": "Project uses load balancer then call one service BFF. this service call surrounding internal and external outside cluster nomad.",
+            "id": 2,
+            "isTemplate": true,
+            "name": "End to End project",
+            "namespaceId": 2,
+            "projectFromId": 0,
+            "reference": "BR-XYZ",
+            "sort": 0,
+            "topology": "https://fastly.picsum.photos/id/316/200/300.jpg",
+            "updatedAt": "2023-06-06 05:52:26"
+        },
+        {
+            "createdAt": "2023-06-06 05:52:26",
+            "desc": "Service use ingress to call service producer then put in Kafka. Another service as consumer will consume this event",
+            "id": 3,
+            "isTemplate": true,
+            "name": "Project with event messaging",
+            "namespaceId": 3,
+            "projectFromId": 0,
+            "reference": "BR-XYZ",
+            "sort": 0,
+            "topology": "https://fastly.picsum.photos/id/316/200/300.jpg",
+            "updatedAt": "2023-06-06 05:52:26"
+        }
+    ]
+}
